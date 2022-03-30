@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Module",
+            "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "module": "trade_optimizer",
+            "program": "${file}",
+            "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
                 "data_3600.csv"
