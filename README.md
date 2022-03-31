@@ -3,6 +3,11 @@ A trading algorithm that, given historical data, attempts to determine the
 best trades that could have been made to maximise profits.
 
 ## Setup
+Python version: 3.7 or above. You can check your python version like this.
+```
+python --version
+```
+
 Create virtual environment and activate it.
 ```
 python -m venv .venv
